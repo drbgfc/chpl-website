@@ -35,6 +35,7 @@ import /* toaster from*/ 'angularjs-toaster';
 import /* uiBoostrap from*/ 'angular-ui-bootstrap';
 //import ui.bootstrap.fontawesome from 'ui.bootstrap.fontawesome';
 //import /* ngFileUpload from*/ 'angular-file-upload';
+import /* ngFileUpload from*/ './lib/ng-file-upload-all';
 import /* ngFileSaver from*/ 'angular-file-saver';
 import /* ngStorage from*/ 'ngstorage';
 import 'angular-zxcvbn';
@@ -77,6 +78,7 @@ const dependencies = [
     'ngAria',
     'ngCytoscape',
     'ngFileSaver',
+    'ngFileUpload',
     'ngResource',
     'ngStorage',
     'ngSanitize',
